@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: georgia;
+  background: #153165; }
+
+.container {
+  width: 300px;
+  height: 150px;
+  margin: 2em auto;
+  padding: 2em;
+  background: #4099ff;
+  font-size: 2.5em;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #000;
+  -webkit-box-shadow: 0 0 0 10PX yellow, 0 0 0 20PX red, 0 0 0 30PX green, 0 0 0 10PX teal inset, 0 0 0 20PX tomato inset;
+  box-shadow: 0 0 0 10PX yellow, 0 0 0 20PX red, 0 0 0 30PX green, 0 0 0 10PX teal inset, 0 0 0 20PX tomato inset; }
